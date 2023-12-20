@@ -59,12 +59,9 @@ col2.markdown("- Normal weight 18.5 – 24.9")
 col2.markdown("- Overweight 25 – 29.9")
 col2.markdown("- Obesity 30 or greater")
 
-# ========================== Unit Conversion ==========================
-# display the info of unit conversion
-# st.sidebar.radio("Unit Conversion", options=["centimeter(cm) to meters(m)", "meters(m) to centimeter(cm)","kilogram(kg) to pounds(lbs)","pounds(lbs) to kilogram(kg)","feet(ft) to meters(m)","meter(m) to feet(ft)"])
-# ========================== Unit Conversion Function ==========================
+# ========================== Unit Conversion Class ==========================
 class UnitConversion:
-    """This class converts the units."""
+    """ This class converts the units."""
     # define a function
     def __init__(self, unit: float) -> None:
         self.unit = unit
@@ -137,4 +134,4 @@ else:
     pass
 # ========================== About ==========================
 # display the info of the app
-st.sidebar.info("This app is created by 'Muhammad Najam Ul Islam'")
+#st.sidebar.info("This app is created by 'Muhammad Najam Ul Islam'")
